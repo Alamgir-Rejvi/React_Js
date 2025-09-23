@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import './App.css';
-import Dashboard from './pages/Dashbord';
+import Dashboard from './pages/Home';
 import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css"
 
