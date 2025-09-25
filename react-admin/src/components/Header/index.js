@@ -1,14 +1,23 @@
-const Header = () =>  {
-    return (
-        <>
-         <header>
-            <div className="container-fluid">
-                <button class="btn btn-danger">header</button>
+import { Link } from "react-router-dom";
+import logo from "../../assets/images/logo.jpg";
+
+const Header = () => {
+  return (
+    <>
+      <header>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-3">
+              <Link to={"/"}>
+                <img src={logo} className="logo" alt="Logo" />
+              </Link>
             </div>
-         </header>
-        
-        </>
-    )
-}
+          </div>
+          
+        </div>
+      </header>
+    </>
+  );
+};
 
 export default Header;
