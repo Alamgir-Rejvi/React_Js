@@ -2,5 +2,19 @@
 
 *{margin: 0px; padding: 0px;}
 
-body{ font-family: "Open Sans", sans-serif; background: rgb(209, 218, 218);}
+body{font-family: "Open Sans", sans-serif; background: #6e6e1b;}
 
+header{width: 100%; height: 80px; background: #6e6e1b;}
+
+header .logo{ width: 150px; height: 50px;}
+header .logoText{text-decoration: none;}
+header button.rounded-circle{min-width: 40px !important; width: 40px !important; height: 40px !important;background: #eff2fb;}
+
+.searchBox{width: 300px; height: 40px; background: #eff2fb; border-radius: 10px;}
+
+.searchBox input { background: transparent; border: 0px; outline: none;}
+
+.searchBox input {
+    padding-left: 15px;   /* moves placeholder & typed text */
+  }
+  

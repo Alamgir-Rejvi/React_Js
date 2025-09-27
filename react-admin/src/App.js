@@ -1,8 +1,9 @@
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import './App.css';
-import Dashboard from './pages/Home';
+import Dashboard from './pages/Dashboard';
 import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css"
+
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
     <Header/>
       <Routes>
         <Route path='/' exact={true} element={<Dashboard/>}/>
-        <Route path='/dashboard' exact={true} element={<Dashboard/>}/>
+        <Route path='/Dashboard' exact={true} element={<Dashboard/>}/>
       </Routes>
     </BrowserRouter>
   )
