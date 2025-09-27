@@ -3,6 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router";
 import Master from './pages/Master';
 import AddUser from './pages/users/AddUser';
 import ManageUser from './pages/users/ManageUser';
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
+
 const App = () => {
   return (
     <div>
