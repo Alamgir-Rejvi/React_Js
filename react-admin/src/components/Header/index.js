@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo.jpg";
 import Button from '@mui/material/Button';
 import { MdMenuOpen } from "react-icons/md";
 import { MdOutlineMenu } from "react-icons/md";
-import SearchBox from "../SearchBox/SearchBox";
+import SearchBox from "./SearchBox";
 
 const Header = () => {
   return (

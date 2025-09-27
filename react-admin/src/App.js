@@ -1,19 +1,24 @@
 import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
 import './App.css';
-import Dashboard from './pages/Dashboard';
+
 import Header from './components/Header';
 import "bootstrap/dist/css/bootstrap.min.css"
+import "tailwindcss"
+import AdminDashboard from './components/Dashboard/AdminDashboard';
+import SideMenu from './components/Sidebar/SideMenu';
 
 
 function App() {
   return (
-    <BrowserRouter>
-    <Header/>
-      <Routes>
-        <Route path='/' exact={true} element={<Dashboard/>}/>
-        <Route path='/Dashboard' exact={true} element={<Dashboard/>}/>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+      <Header/>
+      <SideMenu/>
+        <Routes>
+        {/* <AdminDashboard/> */}
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 
