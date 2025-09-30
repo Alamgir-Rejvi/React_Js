@@ -2,6 +2,7 @@ import React from "react";
 
 const RevenueCard = () => {
   return (
+<<<<<<< HEAD
     <div className="col-12 col-lg-12 order-2 order-md-3 order-lg-2 mb-4">
       <div className="card">
         <div className="row row-bordered g-0">
@@ -11,6 +12,13 @@ const RevenueCard = () => {
           </div>
           <div className="col-md-4">
             <h5 className="card-header m-0 me-2 pb-3">Monthly Revenue</h5>
+=======
+    <div className="col-12 col-lg-8 order-2 order-md-3 order-lg-2 mb-4">
+      <div className="card">
+        <div className="row row-bordered g-0">
+          <div className="col-md-8">
+            <h5 className="card-header m-0 me-2 pb-3">Total Revenue</h5>
+>>>>>>> 656126930037ac52bbc7d3417aba52852e2c205d
             <div id="totalRevenueChart" className="px-2" />
           </div>
           <div className="col-md-4">
